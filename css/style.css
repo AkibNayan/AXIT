@@ -1,0 +1,349 @@
+/******************
+global css file
+*******************/
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/*********************
+google font
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif;
+*********************/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*******************
+header css file
+********************/
+header{
+	width: 100%;
+	background-color: #000000 !important;	
+	padding: 10px 0;
+}
+.nav-link{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #b0b0b0 !important;
+}
+/*******************
+banner css file
+********************/
+.banner{
+	width: 100%;
+	background-image: url('../image/Banner.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	padding-top: 57px;
+}
+.banner-text{
+	height: 90vh;
+    display: table-cell;
+    vertical-align: middle;
+}
+.banner-text h1{
+	font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 20px 0px;
+    font-size: 35px;
+    width: 85%;
+}
+.banner-text .line{
+	height: 2px;
+    width: 52px;
+    background: #ffffff;
+}
+.banner-text p{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 300;
+	color: #aba49f;	
+	padding: 30px 0px;	
+	width: 78%;
+}
+.banner-text .btn-1{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    border: 1px solid #f5f5f5;
+    background: transparent;
+    color: #96969a;
+    padding: 8px 20px;	
+}
+.banner-form{
+	height: 80vh;
+    display: table-cell;
+    vertical-align: middle;
+    padding-top: 120px;
+}
+.banner-form .card-header{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #333333;
+    padding: 10px;
+}
+.banner-form .card-header span{
+	color: #ff8b38;
+}
+.card-body {
+    padding: 1rem 2rem;
+}
+.banner-form .card-body input{
+	width: 100%;
+    border: none;
+    border-bottom: 2px solid #eeeeee;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.banner-form .card-body input::placeholder{
+	color: #d6d6d6;
+}
+.banner-form .card-body input:focus{
+	outline: none;
+}
+.banner-form .card-body input[type=password]{
+	margin-bottom: 19px;
+}
+.banner-form .card-footer{
+	background: #ff9b51;
+}
+.banner-form .card-footer .btn-2{
+	border: none;
+    background: transparent;
+    width: 100%;
+    height: 30px;
+    margin: 2px;
+    color: #ffffff;
+}
+/*******************
+social part css file
+********************/
+.social-part{
+	width: 100%;
+	padding: 20px 0px;
+	background-color: #ffffff;
+}
+.social-part .social-text{
+	padding-top: 5px;
+}
+.social-part h5{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #999999;
+}
+.social-part p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #bbbcbe;
+    width: 110%;
+}
+.social-part ul li{
+	list-style-type: none;
+    display: inline-block;
+    padding: 20px;
+    font-size: 33px;
+}
+.social-part ul li a i{
+	color: #cccccc;
+	transition: 0.4s ease-in-out;
+}
+.social-part ul li a i:hover{
+	color: tomato;
+	height: 50px;
+	width: 50px;
+	background-color: gray;
+	color: tomato;
+	text-align: center;
+	line-height: 50px;
+	border-radius: 100%;
+	transform: scale(1.4);
+	transition: 0.4s ease-in-out;
+	transform: rotate(180deg);
+}
+/*******************
+service css file
+********************/
+.service{
+	background-color: #f5f5f5;
+	padding: 80px 0px;
+}
+.service ul li{
+	list-style-type: none;
+    background: #333333;
+    margin-bottom: 2px;
+    height: 103px;
+    width: 114px;
+    text-align: center;
+    line-height: 103px;
+}
+.service ul li{
+	color: #ffffff;
+}
+.active-color{
+	background-color: #ff8b38 !important;
+}
+.service h4{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #000000;
+}
+.service p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #c2c3c4;
+    padding: 15px 0px;
+}
+.service .btn-3{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    background: #ff8b38;
+    color: #ffd8c4;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+/******************
+sublist css file
+********************/
+.sublist{
+	width: 100%;
+	background: #ffffff;
+    padding: 66px 0px;
+}
+.sublist h5{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #212121;
+}
+.sublist p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #86878b;
+}
+.sublist .line{
+	height: 2px;
+    width: 72px;
+    background-color: #ff8b38;
+    margin: 20px 0px;
+}
+.sublist-title-top{
+	padding: 10px 0px;
+}
+.sublist-title-top img{
+	border: 2px solid #fea667;
+    padding: 5px;
+    border-radius: 100%;
+    height: 27px;
+}
+.sublist-title-top h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #909090;
+}
+.sublist-title-top p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #86878b;
+}
+.sublist-title-bottom img{
+	border: 2px solid #fea667;
+    padding: 5px;
+    border-radius: 100%;
+    height: 27px;
+}
+.sublist-title-bottom h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #909090;
+}
+.sublist-title-bottom p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #86878b;
+}
+/*******************************
+standart section picture css file
+********************************/
+.standard-picture{
+	width: 100%;
+    background-color: #f5f5f5;
+    padding: 65px 0px;
+}
+.standard-picture h4{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #2e2e2e;
+}
+.standard-picture .line{
+	height: 2px;
+    width: 80px;
+    background: #ff8b38;
+    margin: 20px 0px;
+}
+.standard-picture p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #a2a3a6;
+}
+/******************
+awesome css file
+********************/
+.awesome{
+	width: 100%;
+	background-color: #ffffff;
+	padding: 70px 0px;
+}
+.awesome-up{
+	text-align: center;
+}
+.awesome-up h4{
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+	color: #212121;
+}
+.awesome-up .line{
+	height: 2px;
+    width: 51px;
+    background: #ff8b38;
+    margin: 13px 528px;
+}
+.awesome-up p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #a1a2a5;
+}
+.awesome-down{
+	padding: 40px 0px;
+}
+.awesome-down img{
+	border: 1px solid #ff8b38;
+    padding: 16px;
+    height: 54px;
+    width: 58px;
+    border-radius: 100%;
+    margin-bottom: 15px;
+}
+.awesome-down h6{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: #4d4d4d;
+}
+.awesome-down p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    color: #98999c;
+    font-size: 14px;
+}
+.awesome-down .left{
+	text-align: center;
+}
+.awesome-down .middle{
+	text-align: center;
+}
+.awesome-down .right{
+	text-align: center;
+}
