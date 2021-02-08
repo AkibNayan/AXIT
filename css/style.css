@@ -8,6 +8,7 @@ global css file
 a{
 	text-decoration: none;
 }
+
 /*********************
 google font
 font-family: 'Open Sans', sans-serif;
@@ -23,10 +24,40 @@ header{
 	background-color: #000000 !important;	
 	padding: 10px 0;
 }
+/*.navbar-toggler{
+    margin: 0;
+}
+.navbar-toggler-icon {
+    background-color: white;
+    width: 2em;
+    height: 2em;
+}*/
 .nav-link{
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	color: #b0b0b0 !important;
+    position: relative;
+}
+.nav-link:hover{
+    color: #fff !important;
+}
+
+.nav-item{
+    padding-right: 15px;
+}
+.nav-link:before{
+    content:'';
+    position: absolute;
+    left: 0;
+    height: 4px;
+    bottom: 0;
+    width: 0%;
+    background: white;
+}
+.nav-link:hover:before{
+    background: white !important;
+    width: 100%;
+    transition: 0.5s;
 }
 /*******************
 banner css file
@@ -72,6 +103,10 @@ banner css file
     background: transparent;
     color: #96969a;
     padding: 8px 20px;	
+}
+.banner-text button{
+    margin-left: 0;
+    margin-top: 40px;
 }
 .banner-form{
 	height: 80vh;
@@ -134,6 +169,7 @@ social part css file
 	font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     color: #999999;
+    padding-top: 3px;
 }
 .social-part p{
 	font-family: 'Open Sans', sans-serif;
@@ -235,9 +271,12 @@ sublist css file
 }
 .sublist-title-top img{
 	border: 2px solid #fea667;
-    padding: 5px;
+    padding: 2px;
     border-radius: 100%;
-    height: 27px;
+    height: 30px;
+}
+.sublist.feature2{
+
 }
 .sublist-title-top h6{
 	font-family: 'Open Sans', sans-serif;
@@ -251,9 +290,9 @@ sublist css file
 }
 .sublist-title-bottom img{
 	border: 2px solid #fea667;
-    padding: 5px;
+    padding: 2px;
     border-radius: 100%;
-    height: 27px;
+    height: 30px;
 }
 .sublist-title-bottom h6{
 	font-family: 'Open Sans', sans-serif;
@@ -273,6 +312,7 @@ standart section picture css file
     background-color: #f5f5f5;
     padding: 65px 0px;
 }
+
 .standard-picture h4{
 	font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -309,7 +349,7 @@ awesome css file
 	height: 2px;
     width: 51px;
     background: #ff8b38;
-    margin: 13px 528px;
+    margin: auto;
 }
 .awesome-up p{
 	font-family: 'Open Sans', sans-serif;
@@ -576,10 +616,7 @@ social icon css file
 	background: black;
     padding: 0 225px;	
 }
-.social-text{
-
-}
-.social-text p{
+.extra .social-text p{
 	margin: 0;
     padding-bottom: 20px;
     padding-left: 286px;

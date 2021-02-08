@@ -1,0 +1,287 @@
+
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  /* CSS */
+
+.navbar-toggler-icon{
+  background: white;
+}
+.navbar-brand{
+  padding-top: 2.3125rem;
+}
+.banner{
+  height: 72vh;
+}
+.banner-text{
+  height: 70vh;
+}
+.banner-form {
+    height: 63vh;
+    padding-top: 0;
+}
+.banner-text .btn-1 {
+    border: 3px solid #fff;
+    border-left: 3px solid gray;
+    padding: 10px 30px;
+    margin-left: 8px;
+}
+.card{
+    margin-left: -104px;
+}
+.social-part .offset-1{
+    margin-left: 8.333333%;
+}
+.social-part ul{
+    margin-bottom: 0rem;
+    padding-left: 0rem;
+}
+.social-part ul li{
+    padding: 40px 11px;
+}
+.service .col-md-6{
+  padding-left: 42px;
+}
+.service .col-md-2{
+  padding: 0;
+}
+.service button{
+  margin-left: 0;
+  margin-top: 40px;
+}
+.sublist .row{
+  flex-direction: column;
+}
+.sublist.feature2{
+  margin-left: 75px;
+}
+.sublist .col-md-6{
+  width: 100%;
+}
+.sublist-title-top .row{
+  flex-direction: inherit;
+}
+.sublist-title-bottom .row{
+  flex-direction: inherit;
+}
+.standard-picture .picture{
+  display: flex;
+  align-items: center;
+}
+.awesome-up h4{
+  margin-bottom: 25px;
+}
+.awesome-up p{
+  margin-top: 25px;
+}
+.section-content h3{
+  padding-top: 25px;
+}
+.section-content p{
+  padding-top: 25px;
+}
+.user-right{
+  padding: 0 22px;
+}
+.design button{
+  margin-left: 243px;
+}
+.section-content h3 {
+  margin-bottom: 15px;
+}
+.section-content p{
+  padding-top: 30px;
+}
+.input-field .contact-button {
+  margin: 30px 0px 30px 280px;
+}
+.social-part ul li{
+  font-size: 17px;
+}
+.social-part .offset-1 {
+  margin: auto;
+}
+.extra .social-text p{
+  padding-left: 60px;
+  font-size: 16px;
+}
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 540px) {
+  
+  /* CSS */
+  body{
+    width: 197%;
+  }
+  .navbar-toggler-icon{
+    width: 2.5em;
+    background: white;
+    padding: 22px;
+  }
+  header button{
+    margin-left: 580px;
+    margin-top: -44px;
+  }
+  .banner{
+    height: auto;
+    text-align: -webkit-center;
+  }
+  .banner-form {
+    height: auto;
+    padding-top: 24px;
+    padding-right: 121px;
+    padding-bottom: 116px;
+  }
+  .card{
+    margin-left: 122px;
+  }
+  .social-part .social-text{
+    padding: 26px 0px 0 16px;
+  }
+  .social-part h5{
+    font-size: 40px;
+  }
+  .social-part p{
+    font-size: 26px;
+  }
+  .service ul li{
+    display: inline-block;
+  }
+  .tab-whole{
+    text-align: center;
+  }
+  .service button{
+    margin: 48px 0;
+  }
+  .sublist{
+    text-align: center;
+  }
+  .sublist .line{
+    margin: auto;
+  }
+  .sublist h5 {
+    font-size: 42px;
+    padding: 20px 0;
+  }
+  .sublist p{
+    font-size: 27px;
+    padding: 20px 0;
+  }
+  .sublist-title-top img{
+    height: 60px;
+  }
+  .sublist-title-top h6 {
+    margin: 20px 0;
+    font-size: 42px;
+  }
+  .sublist-title-top p {
+    font-size: 27px;
+  }
+ .sublist-title-bottom img{
+  height: 60px;
+ }
+  .sublist-title-bottom h6{
+    margin-top: 27px;
+    font-size: 42px;
+  }
+  .standard-picture{
+     text-align: center;
+  }
+  .standard-picture .line{
+    margin: auto;
+  }
+  .standard-picture h4{
+    font-size: 42px;
+    padding: 20px 0;
+  }
+  .standard-picture p{
+    font-size: 27px;
+    padding: 20px 0;
+  }
+  .awesome-up h4{
+    font-size: 42px;
+    padding: 20px 0;
+  }
+  .awesome-up p{
+    font-size: 27px;
+    padding: 20px 0;
+  }
+  .awesome-down img{
+    height: 60px;
+  }
+  .awesome-down h6{
+    font-size: 36px;
+    padding: 20px 0;
+  }
+  .awesome-down p{
+    font-size: 27px;
+  }
+  .section-content h3 {
+    font-size: 42px;
+    padding: 20px 0;
+  }
+  .section-content p {
+    font-size: 27px;
+    padding: 20px 0;
+  }
+  .table-1 .price-cat h5{
+    padding: 20px 0px;
+    font-size: 42px;
+  }
+  .price-body h1 {
+    font-size: 50px;
+  }
+  .price-body h1 span{
+    font-size: 127px;
+  }
+  .price-body p{
+    font-size: 27px;
+  }
+  .pricing-services ul li{
+    font-size: 27px;
+  }
+  .reviews{
+    text-align: center;
+  }
+
+.section-design h3{
+  font-size: 42px;
+}
+.section-design p{
+  font-size: 27px;
+}
+.design button{
+    margin-left: 219px;
+    margin-top: 40px;
+}
+.rearrange{
+  flex-direction: row-reverse;
+}
+.input-field .contact-button{
+  margin: 44px 0px 44px 259px;
+}
+.extra{
+  padding: 0;
+}
+.social-part ul li{
+  padding: 10px 20px;
+}
+.social-part .offset-1 {
+  margin-left: 0.333333%;
+}
+.extra .social-text p{
+  padding-left: 191px;
+}
+
+}
