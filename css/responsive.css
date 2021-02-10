@@ -10,7 +10,7 @@
   /* CSS */
 
 .navbar-toggler-icon{
-  background: white;
+  background-color: white;
 }
 .navbar-brand{
   padding-top: 2.3125rem;
@@ -100,6 +100,9 @@
 .input-field .contact-button {
   margin: 30px 0px 30px 280px;
 }
+.extra ul {
+  margin-left: 0px;
+}
 .social-part ul li{
   font-size: 17px;
 }
@@ -121,48 +124,122 @@
 @media (min-width: 320px) and (max-width: 540px) {
   
   /* CSS */
-  body{
-    width: 197%;
+  html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
   }
-  .navbar-toggler-icon{
-    width: 2.5em;
-    background: white;
-    padding: 22px;
+  .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+  }
+  .navbar-toggler-icon {
+    background-color: white;
   }
   header button{
-    margin-left: 580px;
-    margin-top: -44px;
+    margin-left: 277px;
+    margin-top: -40px;
+  }
+  .navbar-toggler{
+    font-size: 1rem;
+    border: none;
+    border-radius: 0;
+  }
+  .navbar-light .navbar-toggler{
+    padding-top: 13px;
+  }
+  .navbar-brand element.style{
+    width: 70%;
   }
   .banner{
-    height: auto;
-    text-align: -webkit-center;
+    text-align: center;
+    padding-top: 40px;
+    height: 122vh;
+    padding-top: 31px;
   }
-  .banner-form {
-    height: auto;
-    padding-top: 24px;
-    padding-right: 121px;
-    padding-bottom: 116px;
+  .banner-text .img-fluid{
+    max-width: 27%;
+  }
+  .banner-text h1{
+    font-size: 18px;
+    width: 100%;
+  }
+  .banner-text .line{
+    margin: auto;
+  }
+  .banner-text p {
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .banner-text{
+    height: 50vh;
+  }
+  .banner-text .btn-1 {
+    margin: 0;
+  }
+  .banner-form{
+    padding-top: 0px;
   }
   .card{
-    margin-left: 122px;
+    margin-right: 55px;
+    margin-bottom: 60px;
   }
-  .social-part .social-text{
-    padding: 26px 0px 0 16px;
+  .banner .col-md-4 {
+    visibility: visible;
   }
-  .social-part h5{
-    font-size: 40px;
-  }
-  .social-part p{
-    font-size: 26px;
-  }
-  .service ul li{
-    display: inline-block;
-  }
-  .tab-whole{
+  .social-part{
     text-align: center;
   }
+  .social-part ul{
+    margin-bottom: 0;
+    padding-left: 0;
+    display: flex;
+    padding: 0px;
+  }
+  .social-part ul li{
+    padding: 20px 10px;
+    font-size: 20px;
+  }
+  .social-part ul li a i{
+    visibility: visible;
+  }
+  .service{
+    padding: 45px 0px;
+    height: 150vh;
+  }
+  .service ul{
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    visibility: visible;
+  }
+  .service h4{
+    margin: 0;
+    padding-top: 20px;
+  }
+  .service p{
+    margin: 0;
+  }
+  .service .col-md-6{
+    text-align: center;
+  }
+  .service .col-md-6 button{
+    visibility: visible;
+  }
   .service button{
-    margin: 48px 0;
+    margin-left: 0px;
+    margin-top: 41px;
+    margin-bottom: 47px;
+  }
+  .service .col-md-4 .img-fluid {
+    max-width: 100%;
   }
   .sublist{
     text-align: center;
@@ -171,117 +248,115 @@
     margin: auto;
   }
   .sublist h5 {
-    font-size: 42px;
     padding: 20px 0;
+    margin: 0;
   }
-  .sublist p{
-    font-size: 27px;
+  .sublist p {
     padding: 20px 0;
+    margin: 0;
   }
-  .sublist-title-top img{
-    height: 60px;
+  .sublist-title-top h6{
+    margin: 0;
+    padding-top: 20px;
   }
-  .sublist-title-top h6 {
-    margin: 20px 0;
-    font-size: 42px;
+  .sublist-title-top p{
+    padding: 20px 0;
+    margin: 0;
   }
-  .sublist-title-top p {
-    font-size: 27px;
+  .sublist-title-bottom h6 {
+    margin: 0;
+    padding-top: 20px;
   }
- .sublist-title-bottom img{
-  height: 60px;
- }
-  .sublist-title-bottom h6{
-    margin-top: 27px;
-    font-size: 42px;
-  }
+  .sublist .img-fluid{
+    visibility: visible;
+  } 
+
   .standard-picture{
-     text-align: center;
+    text-align: center;
+  }
+  .standard-picture h4{
+    margin: 0;
+    padding-bottom: 20px;
   }
   .standard-picture .line{
     margin: auto;
   }
-  .standard-picture h4{
-    font-size: 42px;
-    padding: 20px 0;
-  }
   .standard-picture p{
-    font-size: 27px;
-    padding: 20px 0;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
-  .awesome-up h4{
-    font-size: 42px;
-    padding: 20px 0;
-  }
-  .awesome-up p{
-    font-size: 27px;
-    padding: 20px 0;
-  }
-  .awesome-down img{
-    height: 60px;
-  }
-  .awesome-down h6{
-    font-size: 36px;
-    padding: 20px 0;
-  }
-  .awesome-down p{
-    font-size: 27px;
-  }
-  .section-content h3 {
-    font-size: 42px;
-    padding: 20px 0;
-  }
-  .section-content p {
-    font-size: 27px;
-    padding: 20px 0;
-  }
-  .table-1 .price-cat h5{
-    padding: 20px 0px;
-    font-size: 42px;
-  }
-  .price-body h1 {
-    font-size: 50px;
-  }
-  .price-body h1 span{
-    font-size: 127px;
-  }
-  .price-body p{
-    font-size: 27px;
-  }
-  .pricing-services ul li{
-    font-size: 27px;
-  }
-  .reviews{
-    text-align: center;
+  .standard-picture .img-fluid{
+    visibility: visible;
   }
 
-.section-design h3{
-  font-size: 42px;
-}
-.section-design p{
-  font-size: 27px;
-}
-.design button{
-    margin-left: 219px;
-    margin-top: 40px;
-}
-.rearrange{
-  flex-direction: row-reverse;
-}
-.input-field .contact-button{
-  margin: 44px 0px 44px 259px;
-}
-.extra{
-  padding: 0;
-}
-.social-part ul li{
-  padding: 10px 20px;
-}
-.social-part .offset-1 {
-  margin-left: 0.333333%;
-}
-.extra .social-text p{
-  padding-left: 191px;
-}
+  .awesome{
+    padding: 30px 0px;
+  }
+  .awesome-up h4{
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .awesome-up p{
+    margin: auto;
+    padding-top: 20px;
+  }
+  .awesome-down h6{
+    margin: 0;
+    padding-bottom: 10px;
+  }
+  .awesome-down p{
+    margin: 0;
+  }
+
+  .pricing{
+    padding: 30px 0px;
+  }
+  .table-1{
+    padding: 15px 0;
+  }
+
+  .testimonial{
+    padding-top: 20px;
+    text-align: center;
+  }
+  .section-content h3{
+    padding-bottom: 20px;
+  }
+  .section-content p{ 
+    padding-top: 20px;
+  }
+  blockquote{
+    margin: 0 0 0rem;
+  }
+ 
+ .design {
+    padding: 0px;
+ }
+ .section-design h3{
+    font-size: 27px;
+    padding-top: 20px;
+ }
+
+ .input-field .row{
+    flex-direction: row-reverse;
+ }
+ .extra ul{
+       padding: 0px 114px;
+ }
+ .extra{
+  padding: 0 88px;
+ }
+ .extra ul {
+      margin-left: -184px;
+ }
+ .extra .social-text p{
+  padding-bottom: 0px;
+  padding-left: 0px;
+  margin: 0;
+ }
+ .input-field .contact-button{
+  margin: 30px 0px 30px 96px;
+ }
 
 }

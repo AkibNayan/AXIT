@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 
+ <!--    wow.js code link -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css">
+
 <!--     custom css file -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- resposive css file -->
@@ -24,12 +27,12 @@
         <nav class="navbar navbar-expand-lg navbar-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#">
-              <img src="image/logo.png" class="img-fluid">
+              <img src="image/logo.png"  class="wow bounceInUp" data-wow-duration="2s">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse wow pulse" data-wow-duration="2s" id="navbarNav">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Features</a>
@@ -58,7 +61,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-7">
-            <div class="banner-text">
+            <div class="banner-text wow slideInLeft">
               <img src="image/BigLogo.png" class="img-fluid">
               <h1>MODERN AXURE TEMPLATE
               FOR BEAUTIFUL PROTOTYPES</h1>
@@ -70,7 +73,7 @@
             </div>
           </div>
           <div class="offset-1 col-md-4">
-            <div class="banner-form">
+            <div class="banner-form wow slideInRight">
               <form>
                 <div class="card">
                   <div class="card-header">
@@ -103,7 +106,7 @@
               Aenean euismod bibendum laoreet.</p>
             </div>
           </div>
-          <div class="offset-1 col-md-7">
+          <div class="offset-1 col-md-7 wow pulse">
             <ul>
               <li><a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
               <li><a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
@@ -122,7 +125,7 @@
     <div class="service">
       <div class="container">
         <div class="row tab-whole">
-          <div class="col-md-2">
+          <div class="col-md-2 wow rotateInDownLeft">
             <ul>
               <li class="tab-1">TAB 1</li>
               <li class="tab-2">TAB 2</li>
@@ -175,7 +178,7 @@
     <section class="sublist">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 feature2">
+          <div class="col-md-6 feature2 wow bounceInLeft">
             <img src="image/Feature2Left.png" class="img-fluid">
           </div>
           <div class="col-md-6">
@@ -229,7 +232,7 @@
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod 
             bibendum laoreet.</p>
           </div>
-          <div class="col-md-6 picture">
+          <div class="col-md-6 picture wow bounceInRight">
             <img src="image/Feature3.png" class="img-fluid">
           </div>
         </div>
@@ -481,7 +484,7 @@
               <div class="line-1"></div>
               <p>Use the sections you need, remove the ones you don't.  Create gorgeous prototypes faster than ever!</p>
             </div>
-            <button>Download</button>
+            <button class="wow bounceInDown">Download</button>
           </div>
         </div>
       </div>
@@ -519,7 +522,7 @@
                 </div>
               </div>
             </div>
-            <input type="submit" name="" value="Send Message" class="contact-button">
+            <input type="submit" name="" value="Send Message" class="contact-button wow bounceIn" data-wow-duration="2s">
           </form>
         </div>
       </div>
@@ -590,6 +593,22 @@
       $('.tab-2').removeClass('active-color');
       $('.tab-3').removeClass('active-color');
     });
+    </script>
+
+
+ <!--    stick up code -->
+    <script type="">
+      window.addEventListener("scroll",function(){
+        var header=document.querySelector("header");
+        header.classList.toggle("sticky",window.scrollY>0);
+      });
+    </script>
+
+  <!--   wow.min.js code link -->
+    <link rel="stylesheet" type="text/css" href="js/wow.min.js">
+     <script src="js/wow.min.js"></script>
+      <script>
+      new WOW().init();
     </script>
 
   </body>
